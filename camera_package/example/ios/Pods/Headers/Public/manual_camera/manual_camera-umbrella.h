@@ -1,0 +1,1 @@
+../../../Target Support Files/manual_camera/manual_camera-umbrella.h

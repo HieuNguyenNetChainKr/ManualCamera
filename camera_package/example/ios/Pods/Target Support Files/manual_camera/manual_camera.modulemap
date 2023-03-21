@@ -1,0 +1,6 @@
+module manual_camera {
+  umbrella header "manual_camera-umbrella.h"
+
+  export *
+  module * { export * }
+}
