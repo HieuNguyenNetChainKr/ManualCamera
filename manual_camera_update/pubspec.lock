@@ -86,7 +86,7 @@ packages:
   manual_camera:
     dependency: "direct main"
     description:
-      path: "../manual_camera-0.0.3"
+      path: "../camera_package"
       relative: true
     source: path
     version: "0.0.3"

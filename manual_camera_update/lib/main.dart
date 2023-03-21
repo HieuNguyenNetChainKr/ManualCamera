@@ -4,8 +4,8 @@ import 'dart:io';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:manual_camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:video_player/video_player.dart';
+//import 'package:path_provider/path_provider.dart';
+//import 'package:video_player/video_player.dart';
 
 class CameraExampleHome extends StatefulWidget {
   @override
@@ -32,11 +32,11 @@ void logError(String code, String message) =>
 
 class _CameraExampleHomeState extends State<CameraExampleHome>
     with WidgetsBindingObserver {
-  CameraController controller;
-  String imagePath;
-  String videoPath;
+  late CameraController controller;
+  late String imagePath;
+  late String videoPath;
   VideoPlayerController videoController;
-  VoidCallback videoPlayerListener;
+  late VoidCallback videoPlayerListener;
   bool enableAudio = true;
 
   @override

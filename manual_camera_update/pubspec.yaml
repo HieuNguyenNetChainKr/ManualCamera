@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   manual_camera:
-    path: ../manual_camera-0.0.3
+    path: ../camera_package
   flutter:
     sdk: flutter
 
